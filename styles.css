@@ -651,3 +651,21 @@
   overflow: hidden;
   border: 6px solid #ff7a00;
 }
+
+/* 🔥 FIX FINAL — DEIXAR FOTO 100% REDONDA */
+.elementor-element-e44d867 .moldura-redonda {
+  width: min(280px, 80vw);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 6px solid #ff7a00;
+  display: inline-block;
+}
+
+.elementor-element-e44d867 .moldura-redonda img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  display: block;
+}
