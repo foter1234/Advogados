@@ -610,3 +610,11 @@
                     line-height: 1.55;
                 }
             }
+
+            .company-docs {
+    margin-top: 14px;
+    font-size: 13px;
+    color: var(--text-muted);
+    opacity: 0.9;
+    letter-spacing: 0.3px;
+}
