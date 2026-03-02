@@ -121,10 +121,10 @@
             }
 
             .elementor-element-e44d867 img {
-                width: min(320px, 80vw);
+                width: clamp(220px, 60vw, 320px);
                 height: auto;
                 object-fit: contain;
-                object-position: center 8%;
+                object-position: center;
                 display: block;
                 margin: 0 auto;
             }
@@ -572,9 +572,13 @@
                 }
 
                 .elementor-element-e44d867 img {
-                    width: min(260px, 78vw);
+                    width: clamp(200px, 65vw, 260px);
                     height: auto;
-                    object-position: center 6%;
+                    object-position: center;
+                }
+                .elementor-element-e44d867 picture {
+                    display: inline-block;
+                    line-height: 0;
                 }
 
                 .elementor-element-78b00a8 .location-map {
