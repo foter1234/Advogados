@@ -624,41 +624,13 @@
 }
 
 
-.moldura-redonda {
-  aspect-ratio: 1 / 1;     /* 🔥 garante círculo */
-  border-radius: 50%;
-  overflow: hidden;
-  display: inline-block;
-}
-
-.moldura-redonda img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;       /* imagem preenche sem deformar */
-  border-radius: 50%;
-}
-
-.moldura-redonda {
-  width: min(280px, 80vw);
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.moldura-redonda {
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 6px solid #ff7a00;
-}
-
-/* 🔥 FIX FINAL — DEIXAR FOTO 100% REDONDA */
+/* ✅ FOTO REDONDA — VERSÃO LIMPA */
 .elementor-element-e44d867 .moldura-redonda {
   width: min(280px, 80vw);
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   overflow: hidden;
-  border: 6px solid #ff7a00;
+  border: 3px solid #ff7a00; /* 👈 MAIS FINO (era 6px) */
   display: inline-block;
 }
 
