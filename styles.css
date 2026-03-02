@@ -622,3 +622,32 @@
     opacity: 0.9;
     letter-spacing: 0.3px;
 }
+
+
+.moldura-redonda {
+  aspect-ratio: 1 / 1;     /* 🔥 garante círculo */
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.moldura-redonda img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* imagem preenche sem deformar */
+  border-radius: 50%;
+}
+
+.moldura-redonda {
+  width: min(280px, 80vw);
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.moldura-redonda {
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 6px solid #ff7a00;
+}
