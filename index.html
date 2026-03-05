@@ -50,6 +50,24 @@
                 "priceRange": "$$"
                 }
         </script>
+        <!-- Event snippet for Contato (1) conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+        <script>
+                function gtag_report_conversion(url) {
+                var callback = function () {
+                    if (typeof(url) != 'undefined') {
+                    window.location = url;
+                    }
+                };
+                gtag('event', 'conversion', {
+                    'send_to': 'AW-17913214234/pgDjCOTf84IcEJrq191C',
+                    'value': 1.0,
+                    'currency': 'BRL',
+                    'event_callback': callback
+                });
+                return false;
+                }
+        </script>
        <meta property="og:type" content="website">
         <meta property="og:title" content="Danilo Lima Advogados - Especialista em Direito do Consumidor">
         <meta property="og:description" content="Advogado especialista em direito do consumidor. Atendimento rápido e online em todo o Brasil.">
@@ -108,7 +126,7 @@
                     <div class="elementor-element elementor-element-6eb502c elementor-widget elementor-widget-button" data-id="6eb502c" data-element_type="widget" data-widget_type="button.default">
                         <div class="elementor-widget-container">
                             <div class="elementor-button-wrapper">
-                                <a class="elementor-button elementor-button-link elementor-size-xl elementor-animation-grow" href="https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso">
+                                <a class="elementor-button elementor-button-link elementor-size-xl elementor-animation-grow" href="https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso" onclick="return gtag_report_conversion('https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso')">
                                     <span class="elementor-button-content-wrapper">
                                         <span class="elementor-button-icon">
                                             <svg aria-hidden="true" class="e-font-icon-svg e-fas-comment" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -159,7 +177,7 @@
                         <div class="elementor-element elementor-element-be3eab7 elementor-align-center elementor-widget elementor-widget-button" data-id="be3eab7" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso" onclick="return gtag_report_conversion('https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso')">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Fale Conosco</span>
                                         </span>
@@ -188,7 +206,7 @@
                         <div class="elementor-element elementor-element-c2e94b3 elementor-align-center elementor-widget elementor-widget-button" data-id="c2e94b3" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso" onclick="return gtag_report_conversion('https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso')">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Fale Conosco</span>
                                         </span>
@@ -217,7 +235,7 @@
                         <div class="elementor-element elementor-element-2e97362 elementor-align-center elementor-widget elementor-widget-button" data-id="2e97362" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-grow" href="https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso" onclick="return gtag_report_conversion('https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso')">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Fale Conosco</span>
                                         </span>
@@ -379,7 +397,7 @@ de viagem</h3>
                     <div class="elementor-element elementor-element-dfdcf6c elementor-mobile-align-center elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="dfdcf6c" data-element_type="widget" data-widget_type="button.default">
                         <div class="elementor-widget-container">
                             <div class="elementor-button-wrapper">
-                                <a class="elementor-button elementor-button-link elementor-size-xl elementor-animation-grow" href="https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso">
+                                <a class="elementor-button elementor-button-link elementor-size-xl elementor-animation-grow" href="https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso" onclick="return gtag_report_conversion('https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso')">
                                     <span class="elementor-button-content-wrapper">
                                         <span class="elementor-button-icon">
                                             <svg aria-hidden="true" class="e-font-icon-svg e-fas-comment" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
@@ -540,7 +558,7 @@ de viagem</h3>
                     <div class="elementor-element elementor-element-841011e elementor-widget elementor-widget-button" data-id="841011e" data-element_type="widget" data-widget_type="button.default">
                         <div class="elementor-widget-container">
                             <div class="elementor-button-wrapper">
-                                <a class="elementor-button elementor-button-link elementor-size-xl elementor-animation-grow" href="https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso">
+                                <a class="elementor-button elementor-button-link elementor-size-xl elementor-animation-grow" href="https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso" onclick="return gtag_report_conversion('https://wa.me/5514996287835?text=Ol%C3%A1!%20Quero%20ajuda%20no%20meu%20caso')">
                                     <span class="elementor-button-content-wrapper">
                                         <span class="elementor-button-icon">
                                             <svg aria-hidden="true" class="e-font-icon-svg e-fas-comment" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
